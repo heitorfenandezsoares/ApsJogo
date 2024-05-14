@@ -22,6 +22,7 @@ public class Botao extends JButton {
 		this.lugarx = lugarx;
 		this.lugarx = lugarx;
 		this.texto = texto;
+		
 		setSize(largura,altura);
 		setText(texto);
 		 addActionListener(new ActionListener() {
